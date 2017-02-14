@@ -62,11 +62,11 @@ function getOldProjectName(projectDir) {
   }
 
   var projectFile = '';
-  files.forEach(function(fileName) {
-    if (path.extname(fileName) === '.xcodeproj') {
-      projectFile = path.basename(fileName, '.xcodeproj');
+  for(var i = 0 ; i < files.length ; i++){
+    if(path.extname(files[i]) ===  '.xcodeproj'){
+      projectFile = path.basename(files[i], '.xcodeproj');
     }
-  });
+  }
 
   return projectFile;
 }

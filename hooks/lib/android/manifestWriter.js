@@ -260,7 +260,6 @@ function isLaunchActivity(activity) {
 function createIntentFilter(host, scheme, pathName) {
   var intentFilter = {
     '$': {
-      'android:autoVerify': 'true'
     },
     'action': [{
       '$': {

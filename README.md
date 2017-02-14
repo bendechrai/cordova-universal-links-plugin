@@ -1,3 +1,7 @@
+# This is a Fork - Don't Use Me (unless you know why you're doing it)
+
+The [main repository](https://github.com/nordnet/cordova-universal-links-plugin) for this plugin doesn't work on Node 0.10.30, nor on Android 4.1.1. This fork resolves those issues.
+
 # Cordova Universal Links Plugin
 This Cordova plugin adds support for opening an application from the browser when user clicks on the link. Better known as:
 - [Universal Links on iOS](https://developer.apple.com/library/ios/documentation/General/Conceptual/AppSearch/UniversalLinks.html)
